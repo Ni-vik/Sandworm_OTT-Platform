@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: black;
+  }
+  
+  .hotflix {
+    height: 100px;
+    width: 100%;
+  }
+  .wallpaper {
+    opacity: 0.2;
+    height: 900px;
+    width: 100%;
+  }
+  
+  .form-fonts {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  
+  #signupform {
+    position: relative;
+    bottom: 800px;
+    height: 100px;
+    width: 390px;
+    left: 600px;
+  }
+  
+  .last-name {
+    position: relative;
+    left: 200px;
+    bottom: 55px;
+    border-radius: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  
+  #for-border1,
+  #for-border2,
+  #for-border3,
+  #for-border4,
+  #for-border5 {
+    border-radius: 25px;
+  }
+  
+  .button {
+    margin: 30px 20px 20px 30px;
+  }
+  
+  #for-padding {
+    padding: 10px;
+  }
+  
+  .line {
+    border-top: 1px solid #ffffff;
+  }
+  @media (max-width: 1020px) {
+    #signupform {
+      position: relative;
+      bottom: 800px;
+      height: 100px;
+      width: 200px;
+      left: 5px;
+    }
+  }  
+
+  a{
+      text-decoration: none;
+  }

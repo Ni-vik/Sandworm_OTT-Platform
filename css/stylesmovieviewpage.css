@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #000;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #upperbar {
+    height: 56px;
+    background-color: #000;
+    margin: 0;
+  }
+  
+  .logo {
+    height: 35px;
+    width: 150px;
+    padding: 12px 0 3px 0px;
+  }
+  
+  .notification-icon,
+  .account-icon {
+    height: 33px;
+    padding: 12px 0 0 0;
+  }
+  
+  .account-icon {
+    width: 35px;
+  }
+  
+  .search-bar {
+    margin-left: 900px;
+  }
+  
+  input {
+    margin-top: 3px;
+    display: inline-block;
+  }
+  
+  #menubar {
+    background-color: #000;
+    width: 150px;
+    bottom: 30px;
+    float: left;
+    height : 1060px;
+  }
+  
+  p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #000000;
+    padding: 5px;
+  }
+  
+  .trending-title-text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    color: #ffffff;
+    margin-left:250px;
+  }
+  .movie-trending-size {
+    height: 300px;
+    width: 175px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .for-margin-2{
+    margin : 0 20px 0 20px;
+  }
+  .trending-movie-container{
+    width : 1150px;
+  }
+  #genre{
+    height:30px;
+    width:1150px;
+    display:inline-block;
+    margin:auto;
+  }
+  .carousel-item{
+    padding-left:145px;
+  }
+  
+  #trending-carousel{
+    display: inline-block;
+    margin: auto 0;
+    width : 1150px;
+  }
+  
+  .movie-trending-size:hover{
+    transform: scale(0.8);
+  }
+
+
+  .movie-info{
+    position: absolute;
+    bottom : 400px;
+    left : 200px;
+  }
+    

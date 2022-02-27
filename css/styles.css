@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+/*logo*/
+.hotflix {
+  height: 100px;
+  width: 100%;
+}
+.wallpaper {
+  opacity: 0.2;
+  height: 900px;
+  width: 100%;
+}
+/*signup*/
+.form-fonts {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+#signupform {
+  position: relative;
+  bottom: 800px;
+  height: 100px;
+  width: 390px;
+  left: 600px;
+}
+
+.last-name {
+  position: relative;
+  left: 200px;
+  bottom: 55px;
+  border-radius: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+#for-border1,
+#for-border2,
+#for-border3,
+#for-border4,
+#for-border5 {
+  border-radius: 25px;
+}
+
+.button {
+  margin: 30px 20px 20px 30px;
+}
+
+#for-padding {
+  padding: 10px;
+}
+
+.line {
+  border-top: 1px solid #ffffff;
+}
+/*adventure*/
+.adv-img {
+  height: 650px;
+  width: 500px;
+}
+
+.adv-img-home {
+  height: 100%;
+  width: 100%;
+}
+
+.adv {
+  height: 650px;
+  width: 450px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.583333) 41.67%,
+    rgba(130, 57, 105, 0) 100%
+  );
+}
+.adv-text {
+  padding: 150px 0 50px 80px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+}
+/*responsive*/
+@media (max-width: 1020px) {
+  #signupform {
+    position: relative;
+    bottom: 800px;
+    height: 100px;
+    width: 200px;
+    left: 5px;
+  }
+}
+/*genre*/
+.genre {
+  height: 300px;
+  position: absolute;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/*genre cards*/
+.genre-action {
+  position: absolute;
+  border: 5px solid #ffffff;
+  border-radius: 4px;
+  padding: 0;
+  width: 150px;
+  height: 240px;
+  box-sizing: border-box;
+  left: 225px;
+  top: 30px;
+  bottom: 30px;
+  z-index: -1;
+}
+.genre-drama {
+  position: absolute;
+  border: 5px solid #ffffff;
+  border-radius: 4px;
+  padding: 0;
+  width: 150px;
+  height: 270px;
+  box-sizing: border-box;
+  left: 112.5px;
+  top: 15px;
+  bottom: 15px;
+  z-index: 0;
+}
+
+.genre-superhero {
+  position: absolute;
+  border: 5px solid #ffffff;
+  border-radius: 4px;
+  padding: 0;
+  width: 150px;
+  height: 300px;
+  box-sizing: border-box;
+  left: 5px;
+  z-index: 1;
+}
+
+.genre-sci-fi {
+  position: absolute;
+  border: 5px solid #ffffff;
+  border-radius: 4px;
+  padding: 0;
+  width: 150px;
+  height: 300px;
+  box-sizing: border-box;
+  left: 1200px;
+  z-index: 1;
+}
+.genre-romance {
+  position: absolute;
+  border: 5px solid #ffffff;
+  border-radius: 4px;
+  padding: 0;
+  width: 150px;
+  height: 270px;
+  box-sizing: border-box;
+  left: 1087.5px;
+  top: 15px;
+  bottom: 15px;
+  z-index: 0;
+}
+.genre-war {
+  position: absolute;
+  border: 5px solid #ffffff;
+  border-radius: 4px;
+  padding: 0;
+  width: 150px;
+  height: 240px;
+  box-sizing: border-box;
+  left: 975px;
+  top: 30px;
+  bottom: 30px;
+  z-index: -1;
+}
+/*genre names*/
+.genre-name-action {
+  position: absolute;
+  left: 265px;
+  top: 100px;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 56px;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.genre-name-drama {
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 56px;
+  z-index: 0;
+  color: #696969;
+}
+
+.genre-name-superhero {
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 56px;
+  z-index: 3;
+  color: #ffffff;
+}
+
+.genre-name-sci-fi {
+  position: absolute;
+  left: 1250px;
+  top: 100px;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 56px;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.genre-name-romance {
+  position: absolute;
+  left: 1100px;
+  top: 100px;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 56px;
+  z-index: 0;
+  color: #696969;
+}
+
+.genre-name-war {
+  position: absolute;
+  left: 1000px;
+  top: 100px;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 56px;
+  z-index: -1;
+  color: #ffffff;
+}
+
+.genre-options {
+  position: absolute;
+  left: 500px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 400px;
+}
+
+.pro {
+  line-height: 60px;
+  font-size: 72px;
+}
+.pricing {
+  margin-top: 30px;
+}
+/*screens*/
+.screen-laptop-image {
+  position: relative;
+  top: 400px;
+  left: 500px;
+  height: 700px;
+  width: 800px;
+}
+
+.screen-all-size {
+  height: 100px;
+  width: 100px;
+}
+
+.screen-1 {
+  position: relative;
+  bottom: 150px;
+  left: 790px;
+}
+
+.screen-2 {
+  position: relative;
+  bottom: 150px;
+  left: 820px;
+}
+
+.screen-3 {
+  position: relative;
+  left: 580px;
+}
+
+.screen-4 {
+  position: relative;
+  left: 610px;
+}
+
+.screen-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+  position: relative;
+  bottom : 100px;
+  left : 100px;
+}
+
+.button-2{
+position : relative;
+  bottom : 100px;
+  left : 100px;
+}
