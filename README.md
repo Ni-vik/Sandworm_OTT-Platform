@@ -1,6 +1,6 @@
-# hotflix
+# Hotflix
 This website is a submission for design heist
-Link to the hosted website : https://ni-vik.github.io/hotflix/
+Link to the hosted website : https://ni-vik.github.io/Sandworm_OTT-Platform/
 Link to the design submitted in round 1 : https://drive.google.com/drive/folders/1--INwNoWnjCCuvG4r9K6_oMX35qmabSm?usp=sharing
 On this website there are 5 pages
 1. Sign Up 
